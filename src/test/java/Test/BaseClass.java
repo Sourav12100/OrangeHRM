@@ -16,6 +16,7 @@ public class BaseClass {
         pageFactory=new PageFactory(driver);
 
     }
+
     public void close(){
         driver.close();
     }
